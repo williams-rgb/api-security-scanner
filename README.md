@@ -49,6 +49,8 @@ api-security-scanner/
 ├── main.py                # Interfaz de Línea de Comandos (CLI) principal
 ├── requirements.txt       # Dependencias del proyecto
 └── README.md              # Documentación oficial
+
+```
 📦 Instalación y Configuración
 Sigue estos pasos para clonar y poner en marcha el entorno de pruebas en tu máquina local:
 
@@ -68,6 +70,8 @@ venv\Scripts\activate
 3. Instalar las dependencias
 Bash
 pip install -r requirements.txt
+
+
 🖥️ Guía de Ejecución y Uso
 El script cuenta con una interfaz de línea de comandos (CLI) intuitiva basada en parámetros.
 
@@ -106,7 +110,7 @@ report.html: Un informe visual moderno y estilizado para presentar con métricas
 [ ] Interfaz gráfica web opcional (Dash / Streamlit).
 
 👤 Autor
-Desarrollado con fines educativos y de investigación en ciberseguridad por fazzztos11-gg.
+Desarrollado con fines educativos y de investigación en ciberseguridad por williams-rgb.
 
 ⚠️ Aviso Legal
 Esta herramienta ha sido desarrollada estrictamente con fines educativos y para auditorías de seguridad autorizadas (Ethical Hacking / Bug Bounty). Los autores no se hacen responsables del mal uso o de los daños causados por el incumplimiento de las leyes aplicables.
