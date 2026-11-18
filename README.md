@@ -51,7 +51,7 @@ api-security-scanner/
 └── README.md              # Documentación oficial
 
 ```
-📦 Instalación y Configuración
+## 📦 Instalación y Configuración
 Sigue estos pasos para clonar y poner en marcha el entorno de pruebas en tu máquina local:
 
 1. Clonar el repositorio
@@ -72,7 +72,7 @@ Bash
 pip install -r requirements.txt
 
 
-🖥️ Guía de Ejecución y Uso
+## 🖥️ Guía de Ejecución y Uso
 El script cuenta con una interfaz de línea de comandos (CLI) intuitiva basada en parámetros.
 
 Opciones de la CLI:
@@ -89,7 +89,9 @@ python main.py --spec examples/swagger.json
 📌 Ejemplo 2: Escaneo apuntando a un entorno externo con autenticación Bearer
 Bash
 python main.py --spec swagger.yaml --url [https://api.staging-empresa.com](https://api.staging-empresa.com) --token "eyJhbGciOiJIUzI1NiIsIn..."
-📊 Reportes Generados
+
+
+## 📊 Reportes Generados
 Al finalizar el escaneo, la herramienta genera automáticamente dos tipos de salida:
 
 Consola Interactiva: Una tabla colorida y detallada con los hallazgos críticos utilizando la librería rich.
@@ -100,7 +102,9 @@ report.json: Ideal para integrar en pipelines de integración continua (CI/CD).
 
 report.html: Un informe visual moderno y estilizado para presentar con métricas de severidad.
 
-🗺️ Roadmap y Próximas Mejoras
+
+## 🗺️ Roadmap y Próximas Mejoras
+
 [ ] Soporte para pruebas de Rate Limiting / Brute Force (API4).
 
 [ ] Inclusión de validación para Mass Assignment (API6).
@@ -109,8 +113,8 @@ report.html: Un informe visual moderno y estilizado para presentar con métricas
 
 [ ] Interfaz gráfica web opcional (Dash / Streamlit).
 
-👤 Autor
+## 👤 Autor
 Desarrollado con fines educativos y de investigación en ciberseguridad por williams-rgb.
 
-⚠️ Aviso Legal
+## ⚠️ Aviso Legal
 Esta herramienta ha sido desarrollada estrictamente con fines educativos y para auditorías de seguridad autorizadas (Ethical Hacking / Bug Bounty). Los autores no se hacen responsables del mal uso o de los daños causados por el incumplimiento de las leyes aplicables.
